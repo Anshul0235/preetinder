@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Preetinder's personal developer portfolio. Explore my skills, projects and journey in web development.">
+  <title>Preetinder | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">Preetinder<span>.</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-button">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>I'm <span>Preetinder</span></h1>
+        <h2>Aspiring Developer & Student</h2>
+        <p class="hero-description">
+          I'm passionate about technology, coding and creating
+          beautiful digital experiences. I'm currently learning
+          and building my skills one project at a time.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Explore My Work ↗</a>
+          <a href="https://github.com/harpreet"
+             target="_blank" rel="noopener noreferrer"
+             class="btn secondary">GitHub Profile</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/harpreet"
+             target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="#contact">Get in touch ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Preetinder"</span>,
+  role: <span class="green">"Student"</span>,
+  skills: [
+    <span class="green">"HTML"</span>,
+    <span class="green">"CSS"</span>,
+    <span class="green">"JavaScript"</span>,
+    <span class="green">"React"</span>,
+    <span class="green">"Python"</span>
+  ],
+  learning: <span class="green">"Every day"</span>
+};
+
+<span class="blue">console</span>.log(<span class="green">"Hello World!"</span>);</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-card">
+        <div class="about-icon">💻</div>
+        <div>
+          <h3>My Developer Journey</h3>
+          <p>
+            Hi! I'm Preetinder, a student and aspiring developer
+            who loves exploring the world of programming.
+            I'm learning HTML, CSS, JavaScript, React and Python.
+          </p>
+          <p>
+            My goal is to improve my coding skills, create useful
+            projects, solve problems and become a skilled software
+            developer. I believe every small project is a step
+            towards something bigger.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+        <p>Technologies I'm learning and working with.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon html">5</div>
+          <h3>HTML</h3>
+          <p>Web page structure</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon css">3</div>
+          <h3>CSS</h3>
+          <p>Styling and layouts</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon js">JS</div>
+          <h3>JavaScript</h3>
+          <p>Interactive websites</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon react">⚛</div>
+          <h3>React</h3>
+          <p>Frontend development</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon python">Py</div>
+          <h3>Python</h3>
+          <p>Programming fundamentals</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p>Some projects from my learning journey.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-one">🌐</div>
+          <div class="project-info">
+            <span class="project-tag">HTML · CSS</span>
+            <h3>Personal Portfolio</h3>
+            <p>
+              A responsive personal website showcasing my
+              skills, introduction and projects.
+            </p>
+            <a href="https://github.com/harpreet"
+               target="_blank" rel="noopener noreferrer">
+              View on GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-two">⚡</div>
+          <div class="project-info">
+            <span class="project-tag">JavaScript</span>
+            <h3>Interactive Web App</h3>
+            <p>
+              An upcoming project where I will explore
+              JavaScript and interactive web features.
+            </p>
+            <a href="https://github.com/harpreet"
+               target="_blank" rel="noopener noreferrer">
+              Explore GitHub ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art art-three">🐍</div>
+          <div class="project-info">
+            <span class="project-tag">Python</span>
+            <h3>Python Projects</h3>
+            <p>
+              Small programming projects to practice
+              Python and improve problem-solving skills.
+            </p>
+            <a href="https://github.com/harpreet"
+               target="_blank" rel="noopener noreferrer">
+              Explore GitHub ↗
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="project-note">
+        Replace these sample project descriptions and links
+        with your real projects as you build them.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Get In <span>Touch</span></h2>
+        <p>
+          Have an idea, opportunity or project?
+          I'd love to connect!
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <h3>Let's build something amazing.</h3>
+        <p>Find me on GitHub and explore what I'm creating.</p>
+        <a class="btn primary"
+           href="https://github.com/harpreet"
+           target="_blank" rel="noopener noreferrer">
+          Visit My GitHub ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#home" class="logo">Preetinder<span>.</span></a>
+    <p>Designed & built with ❤️ by Preetinder</p>
+    <p>© <span id="year"></span> Preetinder. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
